@@ -1,0 +1,17 @@
+{
+  "wistia": {
+    "events_url":  "https://api.wistia.com/v1/stats/events.json",
+    "visitor_url_stem": "https://api.wistia.com/v1/stats/visitors/",
+    "api_password": "secret_key_from_wistia",
+    "per_page": 10,
+    "page_number": 1
+   },
+  "google": {
+    "timezone_key": "secret_key_from_google"
+  },
+  "compose": {
+    "postgres": "postgres://<user>:<pwd>@<host>:<port>/<db_name>"
+  }
+}
+
+

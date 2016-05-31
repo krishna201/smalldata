@@ -1,0 +1,2 @@
+# pwd set in .pgpass
+psql "sslmode=require host=<hostname> port=<portnumber> dbname=<dbname> user=<role>"  -f drop.sql

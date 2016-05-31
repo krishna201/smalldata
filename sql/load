@@ -1,0 +1,5 @@
+# pwd set in .pgpass
+psql "sslmode=require host=<hostname> port=<portnumber> dbname=<dbname> user=<role>" -c "COPY date_utc FROM  STDIN CSV HEADER" < ./seed/days.csv 
+psql "sslmode=require host=<hostname> port=<portnumber> dbname=<dbname> user=<role>" -c "COPY date_user FROM  STDIN CSV HEADER" < ./seed/days.csv 
+psql "sslmode=require host=<hostname> port=<portnumber> dbname=<dbname> user=<role>" -c "COPY time_utc FROM  STDIN CSV HEADER" < ./seed/times.csv 
+psql "sslmode=require host=<hostname> port=<portnumber> dbname=<dbname> user=<role>" -c "COPY time_user FROM  STDIN CSV HEADER" < ./seed/times.csv 

@@ -1,0 +1,7 @@
+# pwd set in  .pgpass
+psql "sslmode=require host=<hostname> port=<portnumber> dbname=<dbname> user=<role>" -f ./days.sql
+psql "sslmode=require host=<hostname> port=<portnumber> dbname=<dbname> user=<role>" -f ./times_of_day.sql
+psql "sslmode=require host=<hostname> port=<portnumber> dbname=<dbname> user=<role>" -f ./products.sql
+psql "sslmode=require host=<hostname> port=<portnumber> dbname=<dbname> user=<role>" -f ./locations.sql
+psql "sslmode=require host=<hostname> port=<portnumber> dbname=<dbname> user=<role>" -f ./visitors.sql
+psql "sslmode=require host=<hostname> port=<portnumber> dbname=<dbname> user=<role>" -f ./viewing_facts.sql

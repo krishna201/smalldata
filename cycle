@@ -1,0 +1,10 @@
+cd sql/
+./down
+./up
+./load
+cd ..
+node ./bin/add_product.js -l 1864 -n 'ecto' -t 'Ecto 2.0: The Database Tool for Elixir and Phoenix' -m 'cfa5j7uugx'
+node ./bin/add_product.js -l 872 -n 'deploy' -t 'Create a PostgreSQL Deployment on Compose' -m 'ctbdqykoic' 
+node ./bin/add_product.js -l 777 -n 'dunno' -t 'Dunno' -m '737ppffaaa' 
+node ./bin/add_product.js -l 2376 -n 'small1' -t 'Turn Small Data Into Smart Data. Part 1: The Star Schema' -m 'tpakz2jolf' 
+node ./bin/add_product.js -l 1624 -n 'small2' -t 'Turn Small Data Into Smart Data. Part 2: ETL with NodeJS and ES6 Promises' -m 'cnykqk4xka' 
